@@ -7,6 +7,7 @@ var app = new Vue({
     el: '#app',
     data: {
       message: 'Super mega titolone alla Petricc!',
-      image: 'https://picsum.photos/id/1005/600/200'
+      image: 'https://picsum.photos/id/1005/600/200',
+      placeholder:"Se vuoi cambiare titolo clicca qua"
     }
   })
