@@ -1,0 +1,19 @@
+.carousel-img{
+    display: none;
+    width: 100%;
+    max-height: 55vh;
+    object-fit: cover;
+    border-radius: .5%;
+    
+}
+.w-5{
+    width: calc((1100px) / 5);
+}
+
+
+
+
+.carousel-container img.active{
+    display: block;
+    
+}
