@@ -18,19 +18,24 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-12" id="app">
-                <h1>
-                    {{ message }}
-                  </h1>
-                  <input v-model="message" :placeholder="[[ placeholder ]]">
 
-                  <img :src="image" class="w-100 m-3" alt="">
-                  
+                <h1 id="placeholder">
+                    {{ message }}
+                </h1>
+
+                <div class="form-floating mb-3">
+                    <input type="text" v-model="message" class="form-control" id="floatingInput">
+                    <label for="floatingInput">Scegli il titolone</label>
+                  </div>
+
+               
+                <img :src="image" class="w-100 m-3 rounded-5" alt="">
             </div>
         </div>
+    </div>
     </div>
 
 
     <script type="text/javascript" src="main.js"></script>
 
 </body>
-
